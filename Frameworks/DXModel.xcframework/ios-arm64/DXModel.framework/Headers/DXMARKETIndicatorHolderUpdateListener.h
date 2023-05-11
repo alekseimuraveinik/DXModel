@@ -1,0 +1,39 @@
+
+#include "J2ObjC_header.h"
+
+#pragma push_macro("INCLUDE_ALL_ComDevexpertsDxmarketClientModelChartDataIndicatorHolderUpdateListener")
+#ifdef RESTRICT_ComDevexpertsDxmarketClientModelChartDataIndicatorHolderUpdateListener
+#define INCLUDE_ALL_ComDevexpertsDxmarketClientModelChartDataIndicatorHolderUpdateListener 0
+#else
+#define INCLUDE_ALL_ComDevexpertsDxmarketClientModelChartDataIndicatorHolderUpdateListener 1
+#endif
+#undef RESTRICT_ComDevexpertsDxmarketClientModelChartDataIndicatorHolderUpdateListener
+
+#if __has_feature(nullability)
+#pragma clang diagnostic push
+#pragma GCC diagnostic ignored "-Wnullability"
+#pragma GCC diagnostic ignored "-Wnullability-completeness"
+#endif
+
+#if !defined (DXMARKETIndicatorHolderUpdateListener_) && (INCLUDE_ALL_ComDevexpertsDxmarketClientModelChartDataIndicatorHolderUpdateListener || defined(INCLUDE_DXMARKETIndicatorHolderUpdateListener))
+#define DXMARKETIndicatorHolderUpdateListener_
+
+@protocol DXMARKETIndicatorHolderUpdateListener < JavaObject >
+
+- (void)indicatorHolderDataUpdated;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(DXMARKETIndicatorHolderUpdateListener)
+
+J2OBJC_TYPE_LITERAL_HEADER(DXMARKETIndicatorHolderUpdateListener)
+
+#define ComDevexpertsDxmarketClientModelChartDataIndicatorHolderUpdateListener DXMARKETIndicatorHolderUpdateListener
+
+#endif
+
+
+#if __has_feature(nullability)
+#pragma clang diagnostic pop
+#endif
+#pragma pop_macro("INCLUDE_ALL_ComDevexpertsDxmarketClientModelChartDataIndicatorHolderUpdateListener")

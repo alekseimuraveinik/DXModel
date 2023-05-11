@@ -1,0 +1,43 @@
+
+#include "J2ObjC_header.h"
+
+#pragma push_macro("INCLUDE_ALL_ComDevexpertsDxmarketClientModelOrderOrderEditorParametersListener")
+#ifdef RESTRICT_ComDevexpertsDxmarketClientModelOrderOrderEditorParametersListener
+#define INCLUDE_ALL_ComDevexpertsDxmarketClientModelOrderOrderEditorParametersListener 0
+#else
+#define INCLUDE_ALL_ComDevexpertsDxmarketClientModelOrderOrderEditorParametersListener 1
+#endif
+#undef RESTRICT_ComDevexpertsDxmarketClientModelOrderOrderEditorParametersListener
+
+#if __has_feature(nullability)
+#pragma clang diagnostic push
+#pragma GCC diagnostic ignored "-Wnullability"
+#pragma GCC diagnostic ignored "-Wnullability-completeness"
+#endif
+
+#if !defined (DXMARKETOrderEditorParametersListener_) && (INCLUDE_ALL_ComDevexpertsDxmarketClientModelOrderOrderEditorParametersListener || defined(INCLUDE_DXMARKETOrderEditorParametersListener))
+#define DXMARKETOrderEditorParametersListener_
+
+@protocol DXMARKETOrderEditorParameters;
+
+@protocol DXMARKETOrderEditorParametersListener < JavaObject >
+
+- (void)orderEditorParametersChangedWithDXMARKETOrderEditorParameters:(id<DXMARKETOrderEditorParameters>)parameters;
+
+- (void)expirationParamChangedWithDXMARKETOrderEditorParameters:(id<DXMARKETOrderEditorParameters>)parameters;
+
+@end
+
+J2OBJC_EMPTY_STATIC_INIT(DXMARKETOrderEditorParametersListener)
+
+J2OBJC_TYPE_LITERAL_HEADER(DXMARKETOrderEditorParametersListener)
+
+#define ComDevexpertsDxmarketClientModelOrderOrderEditorParametersListener DXMARKETOrderEditorParametersListener
+
+#endif
+
+
+#if __has_feature(nullability)
+#pragma clang diagnostic pop
+#endif
+#pragma pop_macro("INCLUDE_ALL_ComDevexpertsDxmarketClientModelOrderOrderEditorParametersListener")

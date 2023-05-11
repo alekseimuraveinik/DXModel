@@ -1,0 +1,6 @@
+framework module DXModel {
+  umbrella header "DXModel.h"
+
+  export *
+  module * { export * }
+}
